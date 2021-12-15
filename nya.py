@@ -107,7 +107,6 @@ def generate_braces(instructions):
 
 
 def run(filename: str):
-    instructions = []
     with open(filename) as f:
         instructions = [line.rstrip() for line in f.readlines()]
     generate_braces(instructions)
@@ -123,6 +122,6 @@ def run(filename: str):
 if __name__ == '__main__':
     # todo: use pattern matching here
     if len(sys.argv) != 2:
-        print(f"You fucked up. Run catgirl like: catgirl 'your_file.nya'")
+        print(f"You fucked up. Run your catgirls properly baka.")
     else:
         run(sys.argv[1])
