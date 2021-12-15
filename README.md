@@ -24,3 +24,13 @@ OP_CODES = {
     "NYA": sinp,  # , sinp
 }
 ```
+
+use the transpiler to translate any brainfuck into catgirl.
+
+nya
+
+nya nya nya
+
+nya nya 
+
+nya
