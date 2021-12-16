@@ -1,6 +1,5 @@
 import sys
 
-
 translation = {
     "<": "Nya",
     ">": "nyA",
